@@ -46,6 +46,7 @@ nav .title h1 {
 	nav {
 		width: 100%;
 		padding: 0;
+		flex-basis: auto;
 	}
 	nav .title img {
 		width: auto;
