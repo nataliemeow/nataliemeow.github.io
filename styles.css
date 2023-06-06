@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	font-family: Merriweather, Georgia, serif;
+}
+.container {
+	display: flex;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+
+nav, main {
+	padding: 50px 0 0 0;
+}
+nav {
+	margin-right: 50px;
+	flex-basis: 200px;
+}
+main {
+	flex-basis: 800px;
+}
+main h1, nav ul {
+	margin-top: 0;
+}
+nav ul {
+	padding-left: 0;
+	list-style: none;
+}
+nav .here {
+	text-shadow: 0 1px #ccc;
+}
+nav .title img {
+	width: 100%;
+}
+nav .title h1 {
+	font-size: 1.2em;
+	margin: 0.4em 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		flex-direction: column;
+		padding: 0;
+	}
+	nav {
+		width: 100%;
+		padding: 0;
+	}
+	nav .title img {
+		width: auto;
+		height: 100%;
+	}
+	nav .title {
+		margin: 0;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		height: 60px;
+	}
+	nav .title h1 {
+		flex-grow: 1;
+		text-align: left;
+		margin-left: 16px;
+	}
+	nav ul {
+		display: flex;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+	nav li {
+		flex: 1 1 0;
+		width: 0;
+		text-align: center;
+		padding: 10px 0;
+	}
+	main {
+		padding: 0 20px;
+	}
+}
+
+
+a {
+	color: black;
+}
+a:hover {
+	color: #444;
+}
+time {
+	font-style: italic;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 0.75em;
+}

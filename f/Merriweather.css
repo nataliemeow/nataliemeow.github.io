@@ -1,0 +1,20 @@
+@font-face {
+	font-family: Merriweather;
+	src: local(Merriweather-Regular), local(Merriweather Regular), url('Merriweather-Regular.woff2') format(woff2);
+}
+@font-face {
+	font-family: Merriweather;
+	font-weight: bold;
+	src: local(Merriweather-Bold), local(Merriweather Bold), url('Merriweather-Bold.woff2') format(woff2);
+}
+@font-face {
+	font-family: Merriweather;
+	font-style: italic;
+	src: local(Merriweather-Italic), local(Merriweather Italic), url('Merriweather-Italic.woff2') format(woff2);
+}
+@font-face {
+	font-family: Merriweather;
+	font-weight: bold;
+	font-style: italic;
+	src: local(Merriweather-BoldItalic), local(Merriweather Bold Italic) url('Merriweather-Regular.woff2') format(woff2);
+}
