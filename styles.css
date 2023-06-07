@@ -28,7 +28,7 @@ nav ul {
 	list-style: none;
 }
 nav .here {
-	text-shadow: 0 1px #ccc;
+	font-weight: bold;
 }
 nav .title img {
 	width: 100%;
